@@ -1,0 +1,50 @@
+.counter {
+    margin: 100px auto;
+    height: 500px;
+    width: 425px;
+    box-shadow: -2px 5px 22px 3px rgba(0,0,0,0.63);
+    background-color: #ffffff;
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    p {
+        font-family: arial;
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 0;
+    }
+}
+
+button {
+    transition-duration: 0.4s;
+    width: 150px;
+    height: 45px;
+    background: green;
+    color: white;
+    font-family: arial;
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+    color: white;
+  }
+
+  button:focus {
+      outline: none;
+  }
+
+.black {
+    color: black;
+}
+
+.gray {
+    color: gray;
+}
